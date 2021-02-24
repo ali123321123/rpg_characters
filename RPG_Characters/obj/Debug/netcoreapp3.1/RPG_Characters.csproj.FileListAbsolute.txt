@@ -1,0 +1,13 @@
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\bin\Debug\netcoreapp3.1\RPG_Characters.exe
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\bin\Debug\netcoreapp3.1\RPG_Characters.deps.json
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\bin\Debug\netcoreapp3.1\RPG_Characters.runtimeconfig.json
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\bin\Debug\netcoreapp3.1\RPG_Characters.runtimeconfig.dev.json
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\bin\Debug\netcoreapp3.1\RPG_Characters.dll
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\bin\Debug\netcoreapp3.1\RPG_Characters.pdb
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\obj\Debug\netcoreapp3.1\RPG_Characters.csprojAssemblyReference.cache
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\obj\Debug\netcoreapp3.1\RPG_Characters.AssemblyInfoInputs.cache
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\obj\Debug\netcoreapp3.1\RPG_Characters.AssemblyInfo.cs
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\obj\Debug\netcoreapp3.1\RPG_Characters.csproj.CoreCompileInputs.cache
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\obj\Debug\netcoreapp3.1\RPG_Characters.dll
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\obj\Debug\netcoreapp3.1\RPG_Characters.pdb
+C:\Users\azedan\Desktop\Experis Academy\Noroff\Backend\Assigment2\RPG_Characters\RPG_Characters\obj\Debug\netcoreapp3.1\RPG_Characters.genruntimeconfig.cache

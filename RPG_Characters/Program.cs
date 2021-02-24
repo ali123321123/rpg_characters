@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RPG_Characters.Models.Heros;
+using RPG_Characters.Services.initialize;
+using System;
 
 namespace RPG_Characters
 {
@@ -6,7 +8,19 @@ namespace RPG_Characters
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+        
+            HeroInit heroInit = new HeroInit();
+         
+   
+
+            Warrior warrior = new Warrior();
+            Console.WriteLine(warrior);
+            Console.WriteLine("After init Warrior");
+            heroInit.initialize(warrior);
+            Console.WriteLine(warrior);
+
+
+
         }
     }
 }

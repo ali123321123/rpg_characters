@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RPG_Characters/1.0.0": {
+        "runtime": {
+          "RPG_Characters.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RPG_Characters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
