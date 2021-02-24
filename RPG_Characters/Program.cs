@@ -10,10 +10,13 @@ using System;
 
 namespace RPG_Characters
 {
+    
     class Program
     {
         static void Main(string[] args)
         {
+
+            //An Example with Warrior to show how all feature has been implmented
         
             HeroInit heroInit = new HeroInit();
 
@@ -81,10 +84,6 @@ namespace RPG_Characters
             Console.WriteLine("");
             Console.WriteLine("The Armor detalis");
             Console.WriteLine(clothArmor);
-
-
-
-
 
         }
     }

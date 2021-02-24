@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace RPG_Characters.Services.WeaponService
-{
+{// This class will handle all operations related to the weapons
     class WeaponServices
     {
         public Hero hero { get; set; }
@@ -20,7 +20,7 @@ namespace RPG_Characters.Services.WeaponService
 
       
 
-
+        // This method will calculate the damage attack of weapon
         public  int CalculateDamageAttack()
         {
             int result;
@@ -44,8 +44,8 @@ namespace RPG_Characters.Services.WeaponService
 
         }
 
- 
-        public  void CalculateDamage()
+        // This method will calculate the damage  of weapon
+        public void CalculateDamage()
         {
             if (this.weapon.GetType() == typeof(MagicWeapon) || this.weapon.GetType() == typeof(MeleeWeapon))
             {

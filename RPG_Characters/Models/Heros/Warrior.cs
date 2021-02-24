@@ -3,8 +3,15 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace RPG_Characters.Models.Heros
-{
-    class Warrior:Hero
+{ //Class Warrior extends  from Hero class 
+    /*and it has      Health 
+                      Dexterity 
+                      Intelligence 
+                      Level 
+                      Strength 
+                      CurrentExperience
+    */
+    class Warrior :Hero
     {
 
         public Warrior(int health, int strength, int dexterity, int intelligence) : base(health, strength, dexterity, intelligence)

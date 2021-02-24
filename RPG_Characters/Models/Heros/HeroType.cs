@@ -4,6 +4,7 @@ using System.Text;
 
 namespace RPG_Characters.Models.Heros
 {
+   
    public enum HeroType
     {
         MAGE,

@@ -6,6 +6,7 @@ using System.Text;
 
 namespace RPG_Characters.Services.initializeService
 {
+    /* This class will initialize the Slot instance for first time*/
    public  class SlotInit
     {
 
@@ -14,6 +15,7 @@ namespace RPG_Characters.Services.initializeService
 
         }
 
+        // This method will inject data into Armor depends on the slot type.
         public Armor initialize(Armor armor)
         {
             if (armor.Slot.Type == SlotType.Head)

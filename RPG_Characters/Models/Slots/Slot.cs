@@ -7,7 +7,10 @@ namespace RPG_Characters.Models.Slots
 {
     public class Slot
     {
-     public SlotType Type { get; set; }
+        //Enum SlotType has 3 types Head, Body,Legs
+
+
+        public SlotType Type { get; set; }
         
 
         public Slot(SlotType Type)

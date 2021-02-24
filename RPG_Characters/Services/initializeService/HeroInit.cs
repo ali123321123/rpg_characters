@@ -16,7 +16,7 @@ namespace RPG_Characters.Services.initialize
         {
 
         }
-        //initializing method which depend on the type of the Hero
+        //Inject the data with the hero depends on the type of the hero
         public Hero initialize(Hero hero)
         {
             if (hero.GetType() == typeof(Warrior))

@@ -6,6 +6,7 @@ using System.Text;
 
 namespace RPG_Characters.Services.IncreaseLevel
 {
+    // This class will handle all next level operations 
    public class NextLevel
     {
        
@@ -15,7 +16,7 @@ namespace RPG_Characters.Services.IncreaseLevel
         }
        
 
-
+        //This method will level up the level of the hero 
         public static void LevelUp(Hero hero,int Experience)
         {
             hero.CurrentExperience += Experience;
@@ -43,7 +44,8 @@ namespace RPG_Characters.Services.IncreaseLevel
 
         }
 
-
+        //This method for gaing which the charcter will get on level up
+        //Depending on the type 
         public static void GainsOnLevelUp(Hero hero)
         {
 
@@ -76,6 +78,7 @@ namespace RPG_Characters.Services.IncreaseLevel
         }
 
 
+        //The method to calculate armor level 
         public void CalculateArmorLevel(Armor armor)
         {
 

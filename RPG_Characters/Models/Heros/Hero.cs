@@ -6,6 +6,8 @@ using System.Text;
 
 namespace RPG_Characters.Models.Heros
 {
+
+    // The class Hero is super class for Mage,Ranger,Warrior classes 
    public  class Hero
     {
       public int Health { get; set; }
@@ -18,12 +20,15 @@ namespace RPG_Characters.Models.Heros
       public int CurrentExperience { get; set; }
 
       public int ExperinceToNextLevel { get; set;}
-      
-      public HeroType Type { get; set; }
+
+        //Enum HeroType has 3 types : MAGE, RANGER, WARRIOR
+
+
+        public HeroType Type { get; set; }
 
         
 
-    
+    //All Heros will start with level 1 and zero Experince
 
         public Hero()
         {

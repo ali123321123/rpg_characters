@@ -6,6 +6,8 @@ using System.Text;
 
 namespace RPG_Characters.Models.Armors
 {
+
+    // class Armor 
    public  class Armor
     {
 
@@ -15,6 +17,7 @@ namespace RPG_Characters.Models.Armors
 
         public Hero Hero { get; set; }
 
+        //Enum ArmorType has 3 types  CLOTH,LEATHER,PLATE
         public ArmorType ArmorType { get; set; }
         public Slot Slot { get; set; }
 

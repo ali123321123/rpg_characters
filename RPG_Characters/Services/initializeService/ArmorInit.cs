@@ -5,6 +5,9 @@ using System.Text;
 
 namespace RPG_Characters.Services.initializeService
 {
+
+    /* The main goal with whis class is to initialize all Armor instances for 
+     * first time*/ 
   public class ArmorInit
     {
         public ArmorInit()
@@ -12,7 +15,7 @@ namespace RPG_Characters.Services.initializeService
 
         }
 
-
+        //This method will inject data depoends on the type of the armor
         public Armor initialize(Armor armor)
         {
             if (armor.GetType() == typeof(ClothArmor))

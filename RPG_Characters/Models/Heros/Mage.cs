@@ -4,6 +4,14 @@ using System.Text;
 
 namespace RPG_Characters.Models.Heros
 {
+    //Class Mage extends from Hero class 
+    /*and it has "HP: "Health 
+                      " Dexterity 
+                      "Intelligence 
+                      " Level 
+                      "Strength 
+                      "CurrentExperience"
+    */
     class Mage: Hero
     {
       
