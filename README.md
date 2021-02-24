@@ -23,38 +23,38 @@ All you need to clone the porject on your pc, and just run it. ^_^
 
 
 **Program Structure:**
->Rpg_Charecter 
-  >Models
-    >Armors
-      >ArmorType.cs
-      >ClothArmor.cs
-      >LeatherArmor.cs
-      >PlateArmor.cs
-    >Heros
-     >Hero.cs
-     >HeroType.cs
-     >Mage.cs
-     >Ranger.cs
-     >Warrior.cs
-    >Slots
-     >Slot.cs
-     >Slottype.cs
-    >Weapons
-     >MagicWeapon.cs
-     >MeleeWeapon.cs
-     >RangedWeapon.cs
-     >Weapon.cs
-     >WeaponType.cs
- >Service
-  >initializeService
-    >ArmorInit.cs
-    >HeroInit.cs
-    >SlotInit.cs
-  >LevelService
-   >NextLevel.cs
-  >WeaponServices
-   >WeaponServices.cs
->program.cs
+>Rpg_Charecter  <br />
+  >Models        <br />
+    >Armors    <br />
+      >ArmorType.cs  <br />
+      >ClothArmor.cs  <br />
+      >LeatherArmor.cs  <br />
+      >PlateArmor.cs  <br />
+    >Heros  <br />
+     >Hero.cs  <br />
+     >HeroType.cs  <br />
+     >Mage.cs  <br />
+     >Ranger.cs  <br />
+     >Warrior.cs  <br />
+    >Slots  <br />
+     >Slot.cs  <br />
+     >Slottype.cs  <br />
+    >Weapons  <br />
+     >MagicWeapon.cs  <br />
+     >MeleeWeapon.cs  <br />
+     >RangedWeapon.cs  <br />
+     >Weapon.cs  <br />
+     >WeaponType.cs  <br />
+ >Service  <br />
+  >initializeService  <br />
+    >ArmorInit.cs  <br />
+    >HeroInit.cs  <br />
+    >SlotInit.cs  <br />
+  >LevelService  <br />
+   >NextLevel.cs  <br />
+  >WeaponServices  <br />
+   >WeaponServices.cs  <br />
+>program.cs  <br />
 
 
 
