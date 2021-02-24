@@ -18,17 +18,17 @@ namespace RPG_Characters.Services.initializeService
         {
             if (armor.Slot.Type == SlotType.Head)
             {
-                armor.Hero.Health = (int)(armor.Hero.Health * 0.8);
-                armor.Hero.Strength = (int)(armor.Hero.Strength * 0.8);
-                armor.Hero.Dexterity = (int)(armor.Hero.Dexterity * 0.8);
-                armor.Hero.Intelligence = (int)(armor.Hero.Intelligence * 0.8);
+                armor.BonusHp  += (int)(armor.Hero.Health * 0.8);
+                armor.BonusStr += (int)(armor.Hero.Strength * 0.8);
+                armor.BonusDex += (int)(armor.Hero.Dexterity * 0.8);
+                armor.BonusInt += (int)(armor.Hero.Intelligence * 0.8);
             }
             else if (armor.Slot.Type == SlotType.Legs)
             {
-                armor.Hero.Health = (int)(armor.Hero.Health * 0.6);
-                armor.Hero.Strength = (int)(armor.Hero.Strength * 0.6);
-                armor.Hero.Dexterity = (int)(armor.Hero.Dexterity * 0.6);
-                armor.Hero.Intelligence = (int)(armor.Hero.Intelligence * 0.6);
+                armor.BonusHp  += (int)(armor.Hero.Health * 0.6);
+                armor.BonusStr += (int)(armor.Hero.Strength * 0.6);
+                armor.BonusDex += (int)(armor.Hero.Dexterity * 0.6);
+                armor.BonusInt += (int)(armor.Hero.Intelligence * 0.6);
             }
             else if (armor.Slot.Type == SlotType.Body)
             {

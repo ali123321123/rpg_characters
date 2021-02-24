@@ -18,6 +18,13 @@ namespace RPG_Characters.Models.Armors
         public ArmorType ArmorType { get; set; }
         public Slot Slot { get; set; }
 
+        public int BonusHp { get; set; }
+        public int BonusStr { get; set; }
+
+        public int BonusDex { get; set; }
+
+        public int BonusInt { get; set; }
+
         public Armor(int level, string name, Hero hero)
         {
             Level = level;
@@ -30,8 +37,16 @@ namespace RPG_Characters.Models.Armors
         {
         }
 
-
-
-       
+        public override string ToString()
+        {
+            return $"Item stats for : {Name}" + "\n" +
+                   $"Armor Type     : {ArmorType}\n" +
+                   $"Slot           : {Slot.Type}\n" +
+                   $"Armor Level     :{Level    }\n" +
+                   $"Bonus Hp       : {BonusHp}  \n" +
+                   $"Bonus Dex      : {BonusDex} \n" +
+                   $"Bonus Int     :  {BonusInt} \n" +
+                   $"Bonus Str    :   {BonusStr} \n";
+        }
     }
 }

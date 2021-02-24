@@ -24,6 +24,7 @@ namespace RPG_Characters.Services.IncreaseLevel
             {
                 hero.Level++;
                 GainsOnLevelUp(hero);
+                Console.WriteLine($"ExperinceToNextLevel :{ hero.ExperinceToNextLevel }");
 
             }
 
@@ -38,7 +39,7 @@ namespace RPG_Characters.Services.IncreaseLevel
         {
             int xpToNextLevel = (int)((0.1) * hero.CurrentExperience);
             hero.ExperinceToNextLevel = xpToNextLevel + hero.CurrentExperience;
-            Console.WriteLine($"ExperinceToNextLevel :{ hero.ExperinceToNextLevel }");
+           ;
 
         }
 

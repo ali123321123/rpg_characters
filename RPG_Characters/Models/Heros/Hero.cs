@@ -48,8 +48,10 @@ namespace RPG_Characters.Models.Heros
                    "Dex: " + Dexterity + "\n" +
                    "Int: " + Intelligence + "\n" +
                    "Lvl: " + Level + "\n" +
-                   "Str: " + Strength + "\n" +
-                   "XP to next:" + ExperinceToNextLevel;
+                   "Str: " + Strength + "\n"+
+                   "XP :  "+CurrentExperience + "\n";
+
+
         }
     }
 }
